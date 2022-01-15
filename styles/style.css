@@ -1,14 +1,10 @@
+/* common utilities */
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     background: #f3f1f1;
 }
-main{
-    
-}
-.container{
-    /* width: 1047px; */
-}
+
 h1{
     font-size: 24px;
     padding-left: 100px;   
@@ -45,20 +41,15 @@ h1{
     margin-left: 10px;
 }
 .feature-img{
-    width:70%;
-    
+    width:70%;  
 }
 
 /* Popular Products Collection styles */
-.popular-products-area{
-    
-}
 #products-heading{
     text-align: center;
     font-size: 28px;
 }
 .popular-products{
-    /* width: 1047px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
@@ -73,9 +64,13 @@ h1{
 }
 .popular-item h3{
     font-size: 28px;
+    color: #202129;
 }
 .popular-item h4{
     font-size: 24px;
+}
+.popular-item p{
+    color: #787885;
 }
 .fa-star{
     font-size: 12px;
@@ -94,8 +89,10 @@ h1{
 }
 .see-more-btn a{
     text-decoration: none;
-    color: #E02C6D;
+    color: #e2286c;
 }
+
+/* shipping info styles */
 .shopping-info{
     display: flex;
     padding-top: 2em;
@@ -108,8 +105,10 @@ h1{
 }
 .shopping-info-text a{
     text-decoration: none;
-    color: #E02C6D;
+    color: #e2286c;
 }
+
+/* footer styles  */
 footer{
     background: rgb(22, 22, 48);
     color: #FFFFFF;
@@ -121,6 +120,7 @@ footer{
 
 .footer-text p{
     font-size: 14px;
+    color: #D9DBE1;
 }
 .social-media a{
     color: white;
@@ -128,17 +128,6 @@ footer{
     padding: 0.3em;
 }
 
-/* nav > ul > li{
-    list-style: none;
-    color: white;
-    display: inline;
-    padding-right: 0.5em;
-    font-size: 20px;
-}
-
-nav > ul > li> a{
-    color: white;
-} */
 
 /* Media Queries */
 /* Mobile Devices */
