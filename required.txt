@@ -1,0 +1,6 @@
+1. name
+2. menu (optional)
+3. logo (optional)
+
+google fonts
+header button or other place --- animation/transformation/transition
